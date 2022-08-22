@@ -1,0 +1,26 @@
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyad1"
+version = "0.2"
+description = "An experimental Python library for parsing AccessData AD1 forensic images"
+readme = "README.md"
+authors = [{ name = "Petter Christian Bjelland", email = "post@pcbje.com" }]
+maintainers = [{ name = "Konrads Klints"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/truekonrads/pyad1"
+
+[tool.setuptools]
+packages = ["pyad1"]
